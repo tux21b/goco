@@ -1,4 +1,4 @@
-The goco package just contains some experiments with some concurrent
+The goco package just contains some experiments with concurrent
 datastructures implemented in Go.
 
 Run the benchmarks with:

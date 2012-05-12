@@ -1,0 +1,12 @@
+PASS
+BenchmarkTASLock	500000000	        18.8 ns/op
+BenchmarkTASLock-2	50000000	       124 ns/op
+BenchmarkTASLock-4	20000000	       518 ns/op
+BenchmarkTASLock-8	 5000000	      2462 ns/op
+BenchmarkTASLock-16	 1000000	      8738 ns/op
+BenchmarkTTASLock	500000000	        25.0 ns/op
+BenchmarkTTASLock-2	100000000	       308 ns/op
+BenchmarkTTASLock-4	20000000	       692 ns/op
+BenchmarkTTASLock-8	10000000	      3136 ns/op
+BenchmarkTTASLock-16	 1000000	      9685 ns/op
+ok  	github.com/tux21b/goco	154.396s
