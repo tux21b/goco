@@ -1,0 +1,6 @@
+The goco package just contains some experiments with some concurrent
+datastructures implemented in Go.
+
+Run the benchmarks with:
+
+    go test -bench="." -benchtime=5 -cpu=1,2,4,8,16
